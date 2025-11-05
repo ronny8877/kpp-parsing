@@ -1,0 +1,28 @@
+{
+	"name": "parser",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"generate": "node index.ts",
+		"format": "biome format --write",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.18.3",
+	"dependencies": {
+		"@types/node": "^24.10.0",
+		"exifreader": "^4.32.0",
+		"fast-xml-parser": "^5.3.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.3",
+		"typescript": "^5.9.3"
+	},
+	"engines": {
+		"node": "24"
+	}
+}
